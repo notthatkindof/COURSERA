@@ -37,7 +37,7 @@ CommonDriver cmnDriver;
 	
 	@Test
 	public void searchProduct() throws Exception{
-		String product = "Apple";
+		String product = "Apple FETCH TEST";
 		String category = "Electronics";
 		
 		homepage.searchProduct(product, category);
